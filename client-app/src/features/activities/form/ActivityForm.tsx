@@ -105,7 +105,7 @@ function ActivityForm() {
         />
         <Button
           as={Link}
-          to="/activities"
+          to={`/activities/${activity.id}`}
           floated="right"
           type="button"
           content="Cancel"
